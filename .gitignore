@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+*.code-workspace
+!.vscode/extensions.json
+!.vscode/tailwind.json
+!.vscode/settings.json.default
+!.vscode/launch.json.default
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+components.d.ts
+
+# Ignore test data.
+tests-ui/data/*
+tests-ui/ComfyUI_examples
+tests-ui/workflows/examples
+
+# Browser tests
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+browser_tests/**/*-win32.png
+
+.env
+
+dist.zip
+
+/temp/
+
+# Generated JSON Schemas
+/schemas/
+
+# Workflow templates assets
+# Hosted on https://github.com/Comfy-Org/workflow_templates
+/public/templates/
+
+# Temporary repository directory
+templates_repo/
+
+# Vite’s timestamped config modules
+vite.config.mts.timestamp-*.mjs
+__pycache__/
